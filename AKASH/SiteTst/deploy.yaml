@@ -13,12 +13,12 @@ services:
       - "-c"
     args:
       # Link at the end of the next line needs to be changed to the location of your start.sh file
-      - 'apt-get update ; apt-get upgrade -y ; apt-get install -y  curl ;   curl -s https://raw.githubusercontent.com/qraga77/Tests/main/SiteTst/start.sh | bash ; sleep infinity'   
+      - 'apt-get update ; apt-get upgrade -y ; apt-get install -y  curl ;   curl -s https://raw.githubusercontent.com/qraga77/Tests/main/AKASH/SiteTst/start.sh | bash ; sleep infinity'   
     expose:
       - port: 80
         as: 80
-        # accept:
-        #   - "beauty.ingress.declab.pro"  
+        accept:
+          - "beauty.ingress.d3akash.cloud"  
         
         to:
           - global: true
