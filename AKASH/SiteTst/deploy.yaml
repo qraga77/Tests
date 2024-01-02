@@ -17,8 +17,8 @@ services:
     expose:
       - port: 80
         as: 80
-        accept:
-          - "beauty.ingress.declab.pro"  
+        # accept:
+        #   - "beauty.ingress.declab.pro"  
         
         to:
           - global: true
