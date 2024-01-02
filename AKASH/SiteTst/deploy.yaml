@@ -18,7 +18,7 @@ services:
       - port: 80
         as: 80
         # accept:
-        #   - "site.ingress.provider-02.sandbox-01.aksh.pw"  
+        #   - "beauty.ingress.declab.pro"  
         
         to:
           - global: true
